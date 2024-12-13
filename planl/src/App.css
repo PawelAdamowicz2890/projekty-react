@@ -1,0 +1,21 @@
+.cent{ 
+  text-align: center;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+.b {
+  background-color: burlywood;
+}
+table {
+  margin-left: 5px;
+}
+.tytul {
+  background-color: #f2af8d;
+  color: white;
+  height: 80px;
+  text-align: center;
+  font: bold 36px verdana, sans-serif;
+  margin-bottom: 30px;
+}

@@ -1,0 +1,8 @@
+.prepared {
+    font-style: italic;
+    text-decoration: line-through;
+}
+ol {
+    list-style-position: inside;    
+    text-align: center;
+}

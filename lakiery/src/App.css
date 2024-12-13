@@ -1,0 +1,28 @@
+.cent {
+  text-align: center;
+}
+.marg {
+  margin-left: 150px;
+}
+.hov:hover {
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.fr {
+  float: right;
+}
+.dl {
+  width: 300px;
+}
+.cl {
+  clear: both;
+}
+.w {
+  width: 500px;
+}
+.bold {
+  font-weight: bold;
+}
+.bg {
+  background-color: darksalmon;
+}

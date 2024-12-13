@@ -1,0 +1,38 @@
+.cent {
+  text-align: center;
+}
+.fl {
+  float: left;
+}
+.sp {
+  width: 40%;
+}
+.spc {
+  width: 22%;
+}
+.w {
+  width: 500px;
+  margin-left: 200px;
+}
+.p {
+  padding-right: 70px;
+}
+.l {
+  margin-left: 45px;
+}
+.l2 {
+  margin-left: 20px;
+}
+.inp {
+  width: 169px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-right: 2px;
+  padding-left: 2px;
+}
+.inpsh {
+  width: 80px;
+}
+.cl {
+  clear: both;
+}
