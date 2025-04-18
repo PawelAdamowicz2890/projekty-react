@@ -12,7 +12,8 @@
 }
 .w {
   width: 500px;
-  margin-left: 200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .p {
   padding-right: 70px;
@@ -35,4 +36,7 @@
 }
 .cl {
   clear: both;
+}
+.h {
+  margin-top: 40px;
 }

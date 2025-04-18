@@ -18,15 +18,18 @@ const ingredients = [
   {nr: 4, skladnik: "woda", prepared: 1},
   {nr: 5, skladnik: "marmolada", prepared: 0},
 ]
-const pancake = {
-  id: 1,
-  recipeName: "Naleśnik",
-  rating: 4.2,
-  ratingCount: 100,
-  ingredientList: ingredients,
-  stepsList: steps
-}
+
 function App() {
+  const [steps2, setSteps2] = useState(steps.slice());
+  const [step, setStep] = useState({nr: 0, krok: "", fin: 0});
+  const pancake = {
+    id: 1,
+    recipeName: "Naleśnik",
+    rating: 4.2,
+    ratingCount: 100,
+    ingredientList: ingredients,
+    stepsList: steps2
+  }
   return (
     <React.StrictMode>
       <RecipeTitle recipe={pancake} />
@@ -36,18 +39,21 @@ function App() {
       <input type='checkbox' id="k1" onClick={Uko}></input>
     </React.StrictMode>
   );
-}
-function Uko()
-{
-  if(document.getElementById('k1').checked == true)
+  function Uko()
   {
-    steps[0].fin = 1;
+    
+    if(document.getElementById('k1').checked == true)
+    {
+      steps[0].fin = 1;
+    }
+    else
+    {
+      steps[0].fin = 0;
+    }
+    const w = steps;
+    setSteps2(w);
   }
-  else
-  {
-    steps[0].fin = 0;
-  }
-  console.log(steps[0].fin);
 }
+
 
 export default App;
