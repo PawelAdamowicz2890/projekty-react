@@ -37,7 +37,7 @@ Projekt w katalogu `formstate` jest aplikacją demonstracyjną, której celem je
 ✅ Tworzenie i zarządzanie formularzami w React<br>
 ✅ Walidacja pól formularzy<br>
 ✅ Obsługa różnych typów pól formularzy (np. tekstowe, wybór z listy, checkboxy)<br>
-✅ Zastosowanie hooks w React (np. `useState`, `useEffect`)
+✅ Zastosowanie hooks w React (np. `useState`)
 
 ## 📝 Aplikacja "Formularz"
 
@@ -97,7 +97,7 @@ Katalog `kreator` zawiera aplikację stworzoną w React, która jest podstawą k
 ✅ Przegląd dostępnych kolorów lakierów<br>
 ✅ Filtrowanie według koloru<br>
 ✅ Dodawanie do koszyka<br>
-✅ Zastosowanie hooks w React (np. `useState`, `useEffect`)
+✅ Zastosowanie hooks w React (np. `useState`)
 
 ## 🍕 Aplikacja "Pizza"
 
@@ -150,7 +150,7 @@ Katalog `kreator` zawiera aplikację stworzoną w React, która jest podstawą k
 
 ✅ Szczegóły przepisu: składniki, instrukcje, itd.<br>
 ✅ Odznaczanie wykonanych kroków<br>
-✅ Zastosowanie hooks w React (np. `useState`, `useEffect`)
+✅ Zastosowanie hooks w React (np. `useState`)
 
 ## ✨ Autor
 
